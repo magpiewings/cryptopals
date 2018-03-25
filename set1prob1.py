@@ -9,3 +9,8 @@ import binascii
 
 def hextoBase64(hex):
     return binascii.b2a_base64(binascii.unhexlify(hex))
+
+
+def hextor(hex):
+    r = binascii.unhexlify(hex)
+    return r
